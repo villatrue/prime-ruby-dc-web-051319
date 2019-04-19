@@ -1,4 +1,6 @@
 # Add  code here!
 def prime?(n)
-  (2..n-1).none? {|divisor| n % divisor == 0}
+  if num < 0 or num == 0 or num == 1
+    return false
+  elsif (2..n-1).none? {|divisor| n % divisor == 0}
 end
