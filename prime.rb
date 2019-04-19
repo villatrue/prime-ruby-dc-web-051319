@@ -1,2 +1,3 @@
 # Add  code here!
-def prime?
+def prime?(n)
+  (2..1)
